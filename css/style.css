@@ -1,0 +1,40 @@
+:root{
+    --theme-color:#3395a9;
+}
+.img-thumbnail{
+    width: 200px;
+    height: 200px;
+    /* border: 5px solid white; */
+    border-radius: 50%;
+    margin: 10px auto;
+}
+body {
+    padding-bottom: 50px;
+}
+#resume-template,#save-btn{
+    display: none;
+}
+.theme{
+    background-color: var(--theme-color);
+    color: white;
+}
+.bgcolor{
+    background-color: rgb(185, 226, 240);
+}
+h1{
+    font-style: Georgia;
+    font-size: 70px;
+}  
+h2{
+    font-size: 50px;
+}
+  
+.pp{
+    font-size: 30px;
+}
+label{
+   font-size: 25px; 
+}
+::placeholder{
+    font-size: 18px;
+}
